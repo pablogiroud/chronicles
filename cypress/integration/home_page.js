@@ -7,6 +7,7 @@ describe('Home page', () => {
     cy.contains('Request Demo')
     cy.contains('Register')
     cy.contains('© Chronicled 2020')
-
+    cy.contains('Join the future healthcare today')
+    cy.contains('a', 'Request Demo')
   })
 })
