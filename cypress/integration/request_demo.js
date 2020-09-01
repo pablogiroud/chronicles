@@ -1,6 +1,6 @@
 describe('Request Demo', () => {
   beforeEach(() => {
-    cy.visit('https://www.chronicled.com/')
+    cy.visit('/')
     cy.server()
     cy.fixture('pi.json').as('pi').then((pi) => {
         cy.route('GET', 'pi.json', pi)
