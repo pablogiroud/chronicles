@@ -2,7 +2,7 @@ const { cyan } = require("color-name")
 
 describe('Home page', () => {
   it('Chronicle Home Page', () => {
-    cy.visit('https://www.chronicled.com/')
+    cy.visit('/')
 
     cy.contains('Request Demo')
     cy.contains('Register')
